@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: valaxy-devops-project
-        image: ambati2019/simple-devops-image
+        image: ambati2019/dockerwebapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
